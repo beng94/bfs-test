@@ -14,6 +14,7 @@
     "url": "https://github.com/beng94/bfs-test"
   },
   "dependencies": {
+    "fastpriorityqueue": "^0.2.4",
     "winston": "^2.3.1"
   }
 }
