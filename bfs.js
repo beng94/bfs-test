@@ -112,7 +112,7 @@ function Bfs(input) {
 
             neighbours.forEach((neighbour) => {
                 var newCell = maze[neighbour.x][neighbour.y];
-                if(!newCell.visited) {
+                if(!newCell.visited && !newCell.distance) {
                     newCell.distance = cell.distance + newCell.weight;
                     newCell.previous = cell.position;
                     logger.info('[bfs]', `Found new node ${JSON.stringify(newCell.position)} distance: ${newCell.distance}`);
