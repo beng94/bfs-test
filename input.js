@@ -1,4 +1,4 @@
-var logger = require('winston');
+var logger = require('./logger');
 
 function Read() {
     return new Promise((resolve, reject) => {

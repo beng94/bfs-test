@@ -1,4 +1,4 @@
-var logger = require('winston');
+var logger = require('./logger');
 var pQueue = require('fastpriorityqueue');
 
 function isValidIndex(size, coordinate) {
